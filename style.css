@@ -1,0 +1,308 @@
+*{
+			margin: 0;
+			padding: 0;
+			font-family: Helvetica;
+		}
+		.container{
+			width: 75%;
+			height: 650px;
+			background-color: #f9d9c2;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+			color: #f9d9c2;
+			border-radius: 22px;
+			text-align: center;
+		}
+		.keyboard{
+			width: 96.2%;
+			height: 373px;
+			background-color: #f9d9c2;
+			color: #f9d9c2;
+			margin-top: 10px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			border-radius: 15px;
+			border: 3px solid #bd9d86;
+		}
+		.touchpad{
+			width: 30%;
+			height: 205px;
+			background-color: #f9d9c2;
+			color: #f9d9c2;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			margin-top: 12px;
+			border-radius: 12px;
+			border: 2px solid #bd9d86;
+		}
+		.row1{
+			margin-top: .1px;
+			margin-right: 5px;
+		}
+		.functionkeys{
+			width: 5.96%;
+			height: 22px;
+			background-color: #222222;
+			color: #FBFBF9;
+			border-radius: 5px;
+			margin-left: 8px;
+			margin-top: -10px;
+			text-align: center;
+			padding-top: 5px;
+			font-size: 11px;
+			float: left;
+			margin-right: 5px;
+		}
+		.row2{
+			padding: 10px;
+			margin-left: -21px;
+		}
+		.numberkeys{
+			width: 5.85%;
+			height: 41px;
+			background-color: #222222;
+			color: #FBFBF9;
+			border-radius: 5px;
+			float: left;
+			margin-top: -2px;
+			text-align: center;
+			margin-left: 20px;
+			padding-top: 13px;
+			font-size: 13px;
+			float: left;
+			margin-right: -9.5px;
+		}
+		.deletekey{
+			width: 9.75%;
+			height: 41px;
+			background-color: #222222;
+			color: #FBFBF9;
+			border-radius: 5px;
+			float: left;
+			margin-top: -2px;
+			text-align: center;
+			margin-left: 20px;
+			padding-top: 13px;
+			font-size: 13px;
+			float: left;
+			margin-right: -9.5px;
+		}
+		.row3{
+			margin-left: -5px;
+		}
+		.alphakeys1{
+			width: 5.85%;
+			height: 41px;
+			background-color: #222222;
+			color: #FBFBF9;
+			border-radius: 5px;
+			float: left;
+			margin-top: 10px;
+			text-align: center;
+			margin-left: 15px;
+			padding-top: 15px;
+			font-size: 13px;
+			float: left;
+			margin-right: -4.8px;
+		}
+		.tabkey{
+			width: 9.5%;
+			height: 41px;
+			background-color: #222222;
+			color: #FBFBF9;
+			border-radius: 5px;
+			float: left;
+			margin-top: 10px;
+			text-align: center;
+			margin-left: 15px;
+			padding-top: 15px;
+			font-size: 13px;
+			float: left;
+			margin-right: -7px;
+		}
+		.row4{
+			margin-left: -5px;
+		}
+		.alphakeys2{
+			width: 5.95%;
+			height: 41px;
+			background-color: #222222;
+			color: #FBFBF9;
+			border-radius: 5px;
+			float: left;
+			margin-top: 10px;
+			text-align: center;
+			margin-left: 15px;
+			padding-top: 15px;
+			font-size: 13px;
+			float: left;
+			margin-right: -4.8px;
+		}
+		.capslockkey{
+			width: 10.9%;
+			height: 41px;
+			background-color: #222222;
+			color: #FBFBF9;
+			border-radius: 5px;
+			float: left;
+			margin-top: 10px;
+			text-align: center;
+			margin-left: 15px;
+			padding-top: 15px;
+			font-size: 13px;
+			float: left;
+			margin-right: -8px;
+		}
+		.enterkey{
+			width: 10.7%;
+			height: 41px;
+			background-color: #222222;
+			color: #FBFBF9;
+			border-radius: 5px;
+			float: left;
+			margin-top: 10px;
+			text-align: center;
+			margin-left: 15px;
+			padding-top: 15px;
+			font-size: 13px;
+			float: left;
+			margin-right: -8px;
+		}
+		.row5{
+			margin-left: -5px;
+		}
+		.alphakeys3{
+			width: 5.95%;
+			height: 41px;
+			background-color: #222222;
+			color: #FBFBF9;
+			border-radius: 5px;
+			float: left;
+			margin-top: 10px;
+			text-align: center;
+			margin-left: 15px;
+			padding-top: 15px;
+			font-size: 13px;
+			float: left;
+			margin-right: -4.8px;
+		}
+		.shiftkey{
+			width: 14%;
+			height: 41px;
+			background-color: #222222;
+			color: #FBFBF9;
+			border-radius: 5px;
+			float: left;
+			margin-top: 10px;
+			text-align: center;
+			margin-left: 15px;
+			padding-top: 15px;
+			font-size: 13px;
+			float: left;
+			margin-right: -5px;
+		}
+		.row6{
+			margin-left: -5px;
+		}
+		.alphakeys4{
+			width: 4.7%;
+			height: 41px;
+			background-color: #222222;
+			color: #FBFBF9;
+			border-radius: 5px;
+			float: left;
+			margin-top: 10px;
+			text-align: center;
+			margin-left: 15px;
+			padding-top: 15px;
+			font-size: 13px;
+			float: left;
+			margin-right: -0.8px;
+		}
+		.alphakeys4 p{
+			margin-top: 5px;
+		}
+		.alphakeys4 span p{
+			margin-right: 25px;
+		}
+		.commandkey{
+			width: 7%;
+			height: 41px;
+			background-color: #222222;
+			color: #FBFBF9;
+			border-radius: 5px;
+			float: left;
+			margin-top: 10px;
+			text-align: center;
+			margin-left: 15px;
+			padding-top: 15px;
+			font-size: 13px;
+			float: left;
+			margin-right: -0.8px;
+		}
+		.commandkey p{
+			margin-top: 5px;
+		}
+		.spacekey{
+			width: 36%;
+			height: 41px;
+			background-color: #222222;
+			color: #222222;
+			border-radius: 5px;
+			float: left;
+			margin-top: 10px;
+			text-align: center;
+			margin-left: 15px;
+			padding-top: 15px;
+			font-size: 13px;
+			float: left;
+			margin-right: -0.8px;
+		}
+		.arrowkeys{
+			width: 5.5%;
+			height: 13px;
+			background-color: #222222;
+			color: #FBFBF9;
+			border-radius: 5px;
+			float: left;
+			margin-top: 38px;
+			text-align: inherit;
+			margin-left: 20px;
+			padding-right: -15px;
+			padding-top: 15px;
+			font-size: 13px;
+			display: flex;
+			justify-content: center;
+ 			align-items: center;
+			float: left;
+			margin-right: -4px;
+		}
+		.arrowkeys span{
+			position: absolute;
+			margin-top: -13.5px;
+		}
+		.uparrowkeys{
+			width: 5.5%;
+			height: 11px;
+			background-color: #222222;
+			color: #FBFBF9;
+			border-radius: 5px;
+			float: left;
+			margin-top: 11.3px;
+			text-align: center;
+			margin-left: -57.8px;
+			padding-top: 15px;
+			font-size: 13px;
+			float: left;
+			display: flex;
+			justify-content: center;
+ 			align-items: center;
+			margin-right: -2px;
+		}
+		.uparrowkeys span{
+			position: absolute;
+			margin-top: -11px;
+		}
